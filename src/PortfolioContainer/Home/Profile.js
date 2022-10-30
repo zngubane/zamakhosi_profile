@@ -31,7 +31,16 @@ export default function Profile() {
                         ]}
                         />
                     </h1>
+                    <span className='profile-role-tagline'>
+                        A young lady with a passion for technolgy.
+                    </span>
                 </span>
+            </div>
+            <div className='profile-option'>
+                <button className='btn primary-btn'>
+                    {" "}
+                    Hire Me{" "}
+                </button>
             </div>
          <div className='profile-details'>
 
