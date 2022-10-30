@@ -6,9 +6,12 @@ export default function Profile() {
     <div className='profile-container'>
       <div className='profile-parent'>
             <div className='colz'>
+                <div className='colz-icon'>
+
                 <a href='https://www.linkedin.com/in/zamakhosi-ngubane-b464281b7/'>
                     <i className='fa fa-linkedin-square'></i>
                 </a>
+                </div>
             </div>
             <div className='profile-details-name'>
                 <span className='primary-text'>
@@ -47,6 +50,9 @@ export default function Profile() {
             </div>
          <div className='profile-details'>
 
+        </div>
+        <div className='profile-picture'>
+            <div className='profile-picture-background'></div>
         </div>
       </div>
     </div>
