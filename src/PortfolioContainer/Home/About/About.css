@@ -1,0 +1,27 @@
+p{
+    padding: 15px;
+    margin-left: 5%;
+    font: 20px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    font-family: Poppins SemiBold;
+}
+.about-container{
+    background-color: #f2aeb1;
+}
+.about-me-img{
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    padding: 45px;
+}
+
+div.about-me-img > img {
+    width: 35%;
+    height: 40%;
+    border-radius: 10px;
+}

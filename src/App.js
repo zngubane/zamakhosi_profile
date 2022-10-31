@@ -1,11 +1,18 @@
 import './App.css';
 import React from 'react';
-import Profile from './PortfolioContainer/Home/Profile';
+import Home from './PortfolioContainer/Home/Home';
+// import About from './PortfolioContainer/AboutMe/About';
+import Contact from './PortfolioContainer/ContactMe/Contact';
+import Footer from './PortfolioContainer/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Profile/>
+      <Home/>
+      {/* <About/> */}
+      <Contact/>
+      <Footer/>
+
     </div>
   );
 }
