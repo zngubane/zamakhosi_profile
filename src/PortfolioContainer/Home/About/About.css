@@ -18,10 +18,16 @@ h1{
     align-items: center;
     background-size: cover;
     padding: 45px;
+    
 }
 
 div.about-me-img > img {
     width: 35%;
     height: 40%;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    /* border-radius: 5px; */
+    /* border-color: #6a083e; */
+    border-color: white;
 }
