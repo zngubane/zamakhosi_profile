@@ -4,132 +4,62 @@
   font-weight: normal;
   src: url("./assets/fonts/Poppins-Medium.ttf");
 }
-
 @font-face {
   font-family: "Poppins Regular";
   font-style: normal;
   font-weight: normal;
   src: url("./assets/fonts/Poppins-Regular.ttf");
 }
-
 @font-face {
   font-family: "Poppins SemiBold";
   font-style: normal;
   font-weight: normal;
   src: url("./assets/fonts/Poppins-SemiBold.ttf");
 }
-
-@font-face {
-  font-family: "Poppins Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Bold.ttf");
-}
-
- @font-face {
-  font-family: "Poppins ExtraBold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
-}
-
-@font-face {
-  font-family: "Poppins Light";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Light.ttf");
-}
-
-@font-face {
-  font-family: "Poppins Thin";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Thin.ttf");
-} */
-
 * {
   outline: none;
+  margin: 0;
+  padding: 0;
 }
-
 body {
   margin: 0;
   overflow-y: overlay;
   font-family: "Poppins Regular";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background: var(--color-bg);
-  color: var(black);
+  padding: 0;
+
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+::-webkit-scrollbar {
+  display: none;
 }
-
-/* ::-webkit-scrollbar {
-  width: 6px !important;
-  height: 6px !important;
-} */
-
-/* body ::-webkit-scrollbar-thumb {
-  background-color: hsla(0, 0%, 100%, 0.16);
-} */
-
-/* ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2);
-} */
-
-/* ::-webkit-scrollbar-track {
-  background: hsla(0, 0%, 100%, 0.1);
-} */
-
 .btn {
-  border-radius: 50px;
+  border-radius: 45px;
   padding: 14px 0;
-  width: 160px;
+  width: 130px;
   cursor: pointer;
   transition: 0.2s;
   font-family: "Poppins SemiBold";
 }
-
-/* .btn:active {
-  transform: translateY(2px);
-} */
-
 .primary-btn {
   color: var(--white);
   border: 2px solid linen;
   font-size: 12px;
   background-color: #ee1379;
 }
- /* @media only screen and (max-width: 414px) {
-  .primary-btn {
-    font-size: 13px;
-  }
-} */
-
 .primary-btn:hover {
   color: aliceblue;
   border: 2px solid #fc11ec;
   background-color: #823e71;
 } 
-
-/* @media only screen and (max-width: 568px) {
-  .highlighted-btn {
-    z-index: -900;
-  }
-} */
-
-.red-border {
-  border: 1px solid var(--error-message) !important;
+:root{
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 }
-
-.fade-in {
-  opacity: 0;
-  transform: translateY(80px);
-  transition: all 0.8s ease;
+html{
+  scroll-behavior: smooth;
 }
-
-/* :root {
-  --color-bg: #823e71;
-} */
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}

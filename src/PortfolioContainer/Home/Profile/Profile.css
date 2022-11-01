@@ -28,9 +28,6 @@ span.primary-text > h2 > p{
     text-align: center;
 }
 
-.highlighted-text{
-    color: var(--dark orange);
-}
 .profile-role-tagline{
     font-size: 18px;
     margin: 5px 0 0 0;

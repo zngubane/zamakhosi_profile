@@ -3,7 +3,8 @@ import React from 'react';
 import Home from './PortfolioContainer/Home/Home';
 // import About from './PortfolioContainer/AboutMe/About';
 import Contact from './PortfolioContainer/ContactMe/Contact';
-import Footer from './PortfolioContainer/Footer/Footer';
+// import FooterEnd from './PortfolioContainer/FooterEnd/FooterEnd';
+import Footer from './PortfolioContainer/Home/Footer/Footer';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Home/>
       {/* <About/> */}
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
+      {/* <FooterEnd/> */}
 
     </div>
   );

@@ -11,18 +11,18 @@ export default function Contact() {
         </h1>
         <div className='container-contact-container'>
             < div className='contact-options'>
-                <article className='contact-option'>
-                    <MdOutlineEmail/>
+                <div className='contact-option'>
+                    <MdOutlineEmail className='contact-option-icon'/>
                     <h4>Email</h4>
                     <h5>guguzama28.ngubane@gmail.com</h5>
                     <a href='mailto:guguzama28.ngubane@gmail.com' target='_blank'>Send a message</a>
-                </article>
-                <article className='contact-option'>
-                    <BsWhatsapp/>
+                </div>
+                <div className='contact-option'>
+                    <BsWhatsapp className='contact-option-icon'/>
                     <h4>WhatsApp</h4>
                     <h5>+27670072352</h5>
-                    <a href='https://api.whatsapp.com/send?phone+27670072352' target='_blank'>Send a message</a>
-                </article>
+                    <a href='https://web.whatsapp.com/send?phone+27670072352' target='_blank'>Send a message</a>
+                </div>
             </div>
             {/*End Of Contact Option*/}
             <form action=''>
