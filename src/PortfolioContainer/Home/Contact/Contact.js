@@ -25,10 +25,12 @@ export default function Contact() {
                 </article>
             </div>
             {/*End Of Contact Option*/}
-            {/* <form action=''>
+            <form action=''>
                 <input type="text" name='name' placeholder='Your Full Name' required />
                 <input type= "email" name='email' placeholder='Your Email' required/>
-            </form> */}
+                <textarea name='message' rows='7' placeholder='Your Message' required/>
+                
+            </form>
         </div>
     </div>
   )
