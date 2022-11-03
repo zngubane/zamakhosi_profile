@@ -26,8 +26,8 @@ export default function About_Me_Text() {
             its mentoring programme will give me top tier training and enable me to give my best in the software development space. Having previously worked 
             in other companies, I have come to see the value of quality leaders and trust and believe that SovTech will offer me more than that. As being with 
             SovTech will also contribute towards the sharpening of my skills and adding of more skills and will get me ready for employment. I also believe that
-            values, eagerness, passion and determination make me worthy of joining the SovTech family. I am a team player, a motivator and a great communicator and 
-            listener and it would be an honor and privilege to join your family.
+            my values, eagerness, passion and determination make me worthy of joining the SovTech family. I am a team player, a motivator, a great communicator and 
+            listener too and it would be an honor and privilege to join your family.
             </p>
             
         </article>
